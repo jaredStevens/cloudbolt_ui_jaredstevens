@@ -1,0 +1,28 @@
+{
+  "name": "vue-with-graphql",
+  "version": "1.0.0",
+  "description": "Vue 2 App using vuex, vue-router, vuetify, graphql and apollo",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "cd client && npm run serve",
+    "start": "concurrently --names \"server,client\" \"npm run server --silent\" \"npm run client --silent\""
+  },
+  "keywords": [],
+  "author": "Jared Stevens",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.0.0-rc.7",
+    "bcrypt": "^3.0.0",
+    "dotenv": "^6.0.0",
+    "graphql": "^0.13.2",
+    "jsonwebtoken": "^8.3.0",
+    "md5": "^2.2.1",
+    "mongoose": ">=5.7.5"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "mongodb": "^3.6.9",
+    "nodemon": "^1.18.1"
+  }
+}
