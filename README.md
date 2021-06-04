@@ -3,12 +3,15 @@
 ## This app uses Vue, Vuetify, Vuex, Vue-Router, and GraphQL
 
 ### To Run:
+
 #### Create a variable.env file in the root directory with 2 variables:
     MONGO_URI=mongodb+srv://<username>:<password>@cluster0.wov5z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
     SECRET (this can be any random string consisting of letters and numbers for password hashing) for example
     SECRET=1jlajhahihahiwaal
-####
-    From the root, run `npm start` and it will run the client side and node server concurrently.
+
+#### cd into client directory and run `npm install`
+#### cd back to the root directly and run `npm install`
+#### From the root, run `npm start` and it will run the client side and node server concurrently.
 
 #### data.json file
     There are image urls in the data.json file to create posts
