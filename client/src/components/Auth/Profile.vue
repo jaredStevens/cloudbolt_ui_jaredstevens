@@ -21,7 +21,7 @@
       </v-card>
     </v-flex>
 
-    <!-- Posts Favorited By the User -->
+    <!-- posts Favorited By the User -->
     <v-container v-if="!userFavorites.length">
       <v-layout row wrap>
         <v-flex xs12>
@@ -45,7 +45,7 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <!-- Posts Created By the User -->
+    <!-- posts Created By the User -->
     <v-container v-if="!userPosts.length">
       <v-layout row wrap>
         <v-flex xs12>
@@ -120,7 +120,7 @@
             <!-- Image Preview -->
             <v-layout row>
               <v-flex xs12>
-                <img :src="imageUrl" height="300px" />
+                <img :src="imageUrl" height="300px" :alt="title"/>
               </v-flex>
             </v-layout>
 

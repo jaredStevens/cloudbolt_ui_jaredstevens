@@ -44,7 +44,7 @@
           <!-- Image Preview -->
           <v-layout row>
             <v-flex xs12>
-              <img :src="imageUrl" height="300px" />
+              <img :src="imageUrl" height="300px" :alt="title"/>
             </v-flex>
           </v-layout>
 

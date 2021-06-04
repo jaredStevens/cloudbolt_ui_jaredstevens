@@ -95,7 +95,7 @@
           <router-view />
         </transition>
 
-        <!--Auth Snackbar -->
+        <!--auth Snackbar -->
         <v-snackbar v-model="authSnackbar" color="success" :timeout="5000" bottom left>
           <v-icon class="mr-3">check_circle</v-icon>
           <h3>You are now signed in!</h3>
@@ -104,7 +104,7 @@
           </v-btn>
         </v-snackbar>
 
-        <!--Auth Error Snackbar -->
+        <!--auth Error Snackbar -->
         <v-snackbar
           v-if="authError"
           v-model="authErrorSnackbar"
@@ -123,7 +123,7 @@
 </template>
 
 <script>
-import Home from "./components/Home";
+import Home from "./components/home";
 import { mapGetters } from "vuex";
 
 export default {

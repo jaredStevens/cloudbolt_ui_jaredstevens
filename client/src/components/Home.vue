@@ -11,7 +11,7 @@
       </v-dialog>
     </v-layout>
 
-    <!-- Explore Posts Button -->
+    <!-- Explore posts Button -->
     <v-layout row wrap v-if="!loading && posts.length" class="mt-2 mb-3 text-center">
       <v-flex xs12>
         <v-btn class="secondary" to="/posts" large dark>Explore Posts</v-btn>

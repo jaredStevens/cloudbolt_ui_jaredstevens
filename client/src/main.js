@@ -1,11 +1,11 @@
 import Vue from 'vue'
-import App from './App.vue'
+import App from './app.vue'
 import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
 import ApolloClient from 'apollo-boost';
 import VueApollo from 'vue-apollo';
-import FormAlert from './components/Shared/FormAlert'
+import FormAlert from './components/shared/form-alert'
 
 Vue.component('FormAlert', FormAlert)
 

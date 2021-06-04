@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "cloudbolt ui challenge",
+  "name": "cloudbolt",
   "builds": [
     {
       "src": "package.json",

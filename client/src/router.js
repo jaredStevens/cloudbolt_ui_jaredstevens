@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './components/Home.vue'
-import AddPost from './components/Posts/AddPost.vue'
-import Posts from './components/Posts/Posts.vue'
-import Post from './components/Posts/Post.vue'
+import Home from './components/home.vue'
+import AddPost from './components/posts/add-post.vue'
+import Posts from './components/posts/posts.vue'
+import Post from './components/posts/post.vue'
 
-import Profile from './components/Auth/Profile.vue'
-import Signin from './components/Auth/Signin.vue'
-import Signup from './components/Auth/Signup.vue'
+import Profile from './components/auth/profile.vue'
+import Signin from './components/auth/sign-in.vue'
+import Signup from './components/auth/sign-up.vue'
 
-import AuthGuard from './AuthGuard'
+import AuthGuard from './auth-guard'
 
 Vue.use(Router)
 
