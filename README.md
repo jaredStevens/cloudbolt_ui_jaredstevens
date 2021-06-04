@@ -17,14 +17,13 @@
 # Postmortem
 
 ### Tools Used
-1. Vue - is a great tool, because it isn't just a simple Javascript wrapper, it is a full ecosystem where state
-management isn't a separate app maintained by other contributors, it is maintained by the Vue team and concurrently with Vue.
+1. Vue - This is an amazing JavaScript library.  It is a full ecosystem, and all aspects of it are maintained by the core Vue team.
    
 1. Vuetify - A convenient and robust UI Library of components built specifically for Vue.
 
 1. Vuex - For state management.
 
-1. Vue-Router - For page navigation, including protected navigation when a user is not signed in.
+1. Vue-Router - Used for page routing/navigation.
 
 1. GraphQL - Instead of fetching everything from a traditional REST API, and parsing what you need from it, GraphQL
 provides the ability to only fetch what is needed.
@@ -38,4 +37,4 @@ info all the posts open to show more info.
    
 1. Better UI, Having a real home page with more information, or a mission statement about what the goal of the app is.
 
-1. Better password management library.  Bcrypt can be a pain with keeping dependencies up to date and not having it fail.
+1. I need to find a better password management dependency.  Bcrypt can be a pain with keeping dependencies up to date and not having it fail.
